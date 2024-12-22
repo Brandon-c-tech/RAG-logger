@@ -17,7 +17,7 @@ RAG Logger is an open-source logging tool designed specifically for Retrieval-Au
   - Metadata enrichment
  
 ## Log Structure
-···json
+```json
 {
     "timestamp": "2024-03-20 10:00:00",
     "query": "user query",
@@ -42,4 +42,4 @@ RAG Logger is an open-source logging tool designed specifically for Retrieval-Au
     "llm_output": "...",
     "messages": []
 }
-···
+```
