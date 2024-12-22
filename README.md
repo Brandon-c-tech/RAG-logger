@@ -15,6 +15,35 @@ RAG Logger is an open-source logging tool designed specifically for Retrieval-Au
   - Daily log organization
   - Automatic file management
   - Metadata enrichment
+
+## Quick Start
+```python
+from rag_logger import RAGLogger
+
+# Initialize logger
+logger = RAGLogger(log_dir="logs")
+
+# Log a query
+logger.log_query("What is machine learning?")
+
+# Track retrieval step
+logger.start_step("retrieval")
+logger.log_retrieval(
+    source="text",
+    total_docs=100,
+    retrieved_docs=[{"id": 1, "content": "..."}]
+)
+logger.end_step("retrieval")
+
+# Record LLM interaction
+logger.log_llm(
+    llm_input="User query and context",
+    llm_output="Generated response"
+)
+
+# Save logs
+logger.save()
+```
  
 ## Log Structure
 ```json
