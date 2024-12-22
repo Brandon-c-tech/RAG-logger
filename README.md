@@ -18,7 +18,7 @@ RAG Logger is an open-source logging tool designed specifically for Retrieval-Au
 
 ## Quick Start
 ```python
-from rag_logger import RAGLogger
+from logger import RAGLogger
 
 # Initialize logger
 logger = RAGLogger(log_dir="logs")
