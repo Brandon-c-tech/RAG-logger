@@ -6,7 +6,7 @@ RAG Logger is an open-source logging tool designed specifically for Retrieval-Au
 
 - 📊 **Comprehensive RAG Pipeline Logging**
   - Query tracking
-  - Retrieval results logging (text & images)
+  - Retrieval results logging
   - LLM interaction recording
   - Step-by-step performance monitoring
 
