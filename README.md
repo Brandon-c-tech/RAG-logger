@@ -162,3 +162,29 @@ logger.save()
     }
 }
 ```
+
+## 🚀 Roadmap
+
+### Phase 1: Core Enhancement (In Progress)
+- [ ] Add decorator support for automatic logging
+- [ ] Implement configuration management
+- [ ] Add performance analysis features
+- [ ] Integrate with common LLM providers
+
+### Phase 2: Version Control & Migration (Planned)
+- [ ] Implement prompt version management (similar to alembic)
+- [ ] Add migration system for prompts and configurations
+- [ ] Integrate with Git for change tracking
+- [ ] Create CLI tools for version management
+
+### Phase 3: Web Interface (Planned)
+- [ ] Build web dashboard for log visualization
+- [ ] Add prompt version management UI
+- [ ] Implement performance analysis views
+- [ ] Create A/B testing comparison tools
+
+### Phase 4: Advanced Features (Future)
+- [ ] Add evaluation metrics
+- [ ] Implement vector store integration
+- [ ] Add support for distributed logging
+- [ ] Create export/import functionality
